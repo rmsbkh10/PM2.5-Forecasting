@@ -1,0 +1,10 @@
+{
+  "model_id": "arima_woa_lstm_pm25",
+  "model_group": "G22",
+  "target": "pm25",
+  "global_adf_p": 2.871746698884371e-10,
+  "global_kpss_p": 0.011578748993942078,
+  "suggested_d": 1,
+  "median_acf_lag7": 0.10465944310539847,
+  "n_stations_analyzed": 78
+}
