@@ -1,0 +1,31 @@
+{
+  "rows_before": 41718,
+  "invalid_dates": 0,
+  "target_missing": 0,
+  "target_le_zero": 727,
+  "target_ge_max": 8,
+  "duplicate_rows": 0,
+  "duplicate_station_date_key": 0,
+  "rows_after": 40981,
+  "stations": 91,
+  "date_min": "2016-11-25",
+  "date_max": "2026-04-06",
+  "excluded_leakage_columns": [],
+  "predictors": [
+    "temperature_celsius",
+    "pressure_mb",
+    "wind_u",
+    "wind_v",
+    "NO2",
+    "CO",
+    "O3",
+    "AOD"
+  ],
+  "columns": {
+    "date": "date",
+    "station": "sensor_name",
+    "lat": "latitude",
+    "lon": "longitude",
+    "target": "pm25"
+  }
+}

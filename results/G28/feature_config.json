@@ -21,6 +21,19 @@
     "semaine_cos"
   ],
   "target": "pm25",
+  "date": "date",
+  "station": "sensor_name",
+  "predictors": [
+    "temperature_celsius",
+    "pressure_mb",
+    "wind_u",
+    "wind_v",
+    "NO2",
+    "CO",
+    "O3",
+    "AOD"
+  ],
   "test_start": "2025-01-01",
-  "d_arima": 1
+  "d_arima": 1,
+  "group": "G22"
 }

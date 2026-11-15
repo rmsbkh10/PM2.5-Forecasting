@@ -1,0 +1,27 @@
+{
+  "source": "/tmp/claude-0/final/data/raw/combined_gee_pm25.csv",
+  "raw_shape": [
+    41718,
+    15
+  ],
+  "clean_shape": [
+    40981,
+    15
+  ],
+  "development_rows": 31284,
+  "future_test_rows": 9697,
+  "n_features": 19,
+  "n_stations": 91,
+  "date_min": "2016-11-25",
+  "date_max": "2026-04-06",
+  "first_fold_train_shape": [
+    3531,
+    34
+  ],
+  "first_fold_validation_shape": [
+    3433,
+    34
+  ],
+  "max_feature_target_abs_corr": 0.4878225624351462,
+  "suggested_d": 1
+}
